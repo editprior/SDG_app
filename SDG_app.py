@@ -205,7 +205,7 @@ df['continent'] = df['country'].apply(map_country_to_continent)
 
 
 # Start visualization
-tab1, tab2, tab3 = st.tabs(['SDGs', 'France', 'Europe', 'Wordldwide'])
+tab1, tab2, tab3 = st.tabs(['SDGs', 'France', 'Wordldwide'])
 with tab1:
     st.write("This app is a summary of the SDG scores for 180 countries worldwide from the year 2000 to 2022. Below is a summary of each goal.")
     data = {
