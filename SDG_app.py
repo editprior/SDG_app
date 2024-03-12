@@ -10,7 +10,7 @@ df = pd.read_csv('sdg_index_2000-2022.csv')
 
 
 # Start of visualization
-tab1, tab2, tab3 = st.tabs(['SDGs', 'France and Ranking', 'Worlddwide'])
+tab1, tab2, tab3 = st.tabs(['SDGs', 'France and Ranking', 'Worldwide'])
 
 with tab1:
     st.markdown("<h2>Sustainable Development Report 2023</h2>", unsafe_allow_html=True)
