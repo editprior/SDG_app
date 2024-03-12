@@ -16,6 +16,6 @@ streamlit run SDG_app.py
 
 ## Live Demo
 
-Check out the [live demo](#https://sdgapp-dzeuacfw9dubappe8akphls.streamlit.app/) of the SDG visualization app.
+Check out the [live demo](ttps://sdgapp-dzeuacfw9dubappe8akphls.streamlit.app/) of the SDG visualization app.
 
 Feel free to customize and add more sections as needed for your project.
