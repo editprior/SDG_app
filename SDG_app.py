@@ -13,7 +13,7 @@ df = pd.read_csv('sdg_index_2000-2022.csv')
 tab1, tab2, tab3 = st.tabs(['Overview', 'France and Ranking', 'Worldwide'])
 
 with tab1:
-    st.markdown("<h2>Sustainable Development Report</h2>", unsafe_allow_html=True)
+    st.markdown("<h2>Sustainable Development Report 2000-2022</h2>", unsafe_allow_html=True)
     st.write(
     "The Sustainable Development Report (SDR) reviews progress made each year on the Sustainable Development Goals "
     "since their adoption by the 193 UN Member States in 2015. At the halfway mark to 2030, the Sustainable Development "
