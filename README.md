@@ -9,6 +9,20 @@ This is a Streamlit web application for visualizing Sustainable Development Goal
 Make sure you have Python installed. You can install the required dependencies using the following command:
 
 ```bash
+pip install -r requirements.txt
+
+
+To run the Streamlit app, use the following command:
+
+```bash
 streamlit run SDG_app.py
 
-https://sdgapp-dzeuacfw9dubappe8akphls.streamlit.app/
+## Live Demo
+Check out the live demo of the SDG visualization app.
+
+Feel free to customize and add more sections as needed for your project.
+
+
+
+
+
