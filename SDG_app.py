@@ -205,7 +205,7 @@ df['continent'] = df['country'].apply(map_country_to_continent)
 
 
 # Start visualization
-tab1, tab2, tab3, tab4 = st.tabs(['SDGs', 'France', 'Europe', 'Wordldwide'])
+tab1, tab2, tab3 = st.tabs(['SDGs', 'France', 'Europe', 'Wordldwide'])
 with tab1:
     st.write("This app is a summary of the SDG scores for 180 countries worldwide from the year 2000 to 2022. Below is a summary of each goal.")
     data = {
@@ -252,15 +252,6 @@ with tab2:
     st.plotly_chart(fig)
 
 with tab3:
-    st.header('Overall SDG scores of European countries over time')
-    selected_year2 = st.selectbox("All the SDGs scores for Europe over the years compared to France", (2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022), index=None)
-    df_europe = df.loc[df['continent'] == 'Europe']
-    fig3 = px.bar(df_europe.loc[df_europe['year'] == selected_year2], x='country', y='sdg_index_score')
-    df_selected_year = df_europe[df_europe['year'] == selected_year2]
-    fig3.update_traces(marker_color=['red' if country == 'France' else 'blue' for country in df_selected_year['country']])
-    st.plotly_chart(fig3)
-
-with tab4:
      st.header('Overall SDG score map of all continents')
      fig2= px.scatter_geo(df,locations='country',locationmode='country names',color='sdg_index_score',
          hover_name='country',
