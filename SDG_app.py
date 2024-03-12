@@ -54,7 +54,7 @@ with tab2:
     st.header("France's overall SDG score over the years")
 
     df_france = df.loc[df['country'] == 'France']
-    fig = px.line(df_france, x='year', y='sdg_index_score', title = "Evolution of French SDG score (over 100)")
+    fig = px.line(df_france, x='year', y='sdg_index_score', title = "Evolution of French SDG score")
     st.plotly_chart(fig)
 
     st.header('Ranking of countries by SDG Index Score')
