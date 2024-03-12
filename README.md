@@ -17,7 +17,7 @@ To run the Streamlit app, use the following command:
 ```bash
 streamlit run SDG_app.py
 
-## Live Demo
+#### Live Demo
 Check out the live demo of the SDG visualization app.
 
 Feel free to customize and add more sections as needed for your project.
