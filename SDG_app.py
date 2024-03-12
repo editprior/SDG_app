@@ -24,7 +24,8 @@ with tab1:
     "[Sustainable Development Report on Kaggle](https://www.kaggle.com/datasets/sazidthe1/sustainable-development-report/data?select=sdg_index_2000-2022.csv)",
     unsafe_allow_html=True
 )
-    st.write("**This app is a summary of the SDG scores for 180 countries worldwide from the year 2000 to 2022.** Below is a summary of each goal.")
+    st.write("**This app is a summary of the SDG scores for 180 countries worldwide from the year 2000 to 2022.**"
+    "Below is a summary of each goal.")
     
     data = {
     '#' : ['Explanation'],
